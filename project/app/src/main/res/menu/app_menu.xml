@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/dismiss"
+        android:title="Feedback"
+        app:showAsAction="never"
+        android:onClick="feedback"
+        />
+
+    <item android:id="@+id/logout"
+        android:title="Rate us!"
+        android:onClick="rateus"
+        app:showAsAction="never"/>
+
+</menu>

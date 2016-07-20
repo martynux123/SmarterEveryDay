@@ -7,8 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".DailyFactActivity">
+        android:theme="@style/AppThemeNoBar">
+        <activity
+            android:name=".DailyFactActivity"
+            android:theme="@style/AppThemeNoBar">
+
+        </activity>
+        <activity android:name=".AllFacts"></activity>
+
+        <activity android:name=".TabLoader">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
